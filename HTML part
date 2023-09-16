@@ -21,15 +21,15 @@
 
 
     <div class="centered-content">
-    <h1>Welcome to Our Website</h1>
-    <p>This is a simple example of displaying an image and text in an HTML document.</p>
-    
-    <!-- Insert your image here -->
-    <img src="Diablo.jpg" alt="Description of your image">
-    
-    <p>Here's some more text to go along with the image.</p>
-    </div>
+        <h1>Welcome to Our Website</h1>
+        <p>This is a simple example of displaying an image and text in an HTML document.</p>
+        <img src="Diablo.jpg" alt="Description of your image">
+        <p>Here's some more text to go along with the image.</p>
+        <img src="IconLeftWitTheEvil.webp" alt="Description of your image">
+        <p>Here's some more text to go along with the image.</p>
+      </div>
 
+      
 
     <div class = "make-it-long ">
         <img src="Diablo.jpg" alt="Description of your image">
