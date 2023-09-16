@@ -1,0 +1,29 @@
+/* Center the entire content vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to the viewport height for vertical centering */
+    margin: 0; /* Remove default margin to prevent unwanted space */
+}
+
+/* Create a container for the centered content */
+.centered-content {
+    text-align: center; /* Center-align text within the container */
+    max-width: 600px; /* Set a maximum width for the centered content */
+}
+
+.make-it-long {
+    text-align: center; /* Center-align text within the container */
+    height: 100vh; /* Set the height of the container to cover the entire viewport height */
+    background-image: url('Diablo.jpg'); /* Set the image as a background */
+    background-size: cover; /* Cover the entire container with the image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+/* Center-align the image within the container */
+img {
+    display: block;
+    margin: 0 auto;
+}
