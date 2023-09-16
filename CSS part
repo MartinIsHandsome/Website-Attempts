@@ -7,6 +7,13 @@ body {
     margin: 0; /* Remove default margin to prevent unwanted space */
 }
 
+
+.centered-content img {
+    max-width: 55%;
+    height: auto;
+  }
+  
+
 /* Create a container for the centered content */
 .centered-content {
     text-align: center; /* Center-align text within the container */
