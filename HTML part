@@ -1,42 +1,25 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  
-<Title> [Website Test Chill 0.01]  </Title>
-<link rel="stylesheet" type="text/css" href="text.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-
-
 <body>
-
-
-   
-    <div class = "make-it-long ">
-        <img src="Diablo.jpg" alt="Description of your image">
-
+    <div class="image-gallery">
+        <img src="Crazy.png" alt="Image 1" class="gallery-image">
+        <img src="Crazy2png.jpg" alt="Image 2" class="gallery-image">
+        <img src="Crazy_2.png" alt="Image 3" class="gallery-image">
     </div>
 
-
-
-    <div class="centered-content">
-        <h1>Welcome to Our Website</h1>
-        <p>This is a simple example of displaying an image and text in an HTML document.</p>
-        <img src="Diablo.jpg" alt="Description of your image">
-        <p>Here's some more text to go along with the image.</p>
-        <img src="IconLeftWitTheEvil.webp" alt="Description of your image">
-        <p>Here's some more text to go along with the image.</p>
-      </div>
-
-      
-
-    <div class = "make-it-long ">
-        <img src="Diablo.jpg" alt="Description of your image">
-
+    <div class="gallery-controls">
+        <button class="prev-button">Previous</button>
+        <button class="next-button">Next</button>
     </div>
 
+    <script src="script.js"></script>
 </body>
-
 
 </html>
