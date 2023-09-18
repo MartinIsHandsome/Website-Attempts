@@ -1,36 +1,25 @@
-/* Center the entire content vertically and horizontally */
-body {
+/* styles.css */
+.image-gallery {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Set the body height to the viewport height for vertical centering */
-    margin: 0; /* Remove default margin to prevent unwanted space */
 }
 
-
-.centered-content img {
-    max-width: 55%;
-    height: auto;
-  }
-  
-
-/* Create a container for the centered content */
-.centered-content {
-    text-align: center; /* Center-align text within the container */
-    max-width: 600px; /* Set a maximum width for the centered content */
+.gallery-image {
+    display: none;
+    max-width: 500px; /* Set your desired maximum width in pixels */    
 }
 
-.make-it-long {
-    text-align: center; /* Center-align text within the container */
-    height: 100vh; /* Set the height of the container to cover the entire viewport height */
-    background-image: url('Diablo.jpg'); /* Set the image as a background */
-    background-size: cover; /* Cover the entire container with the image */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background image from repeating */
-}
-
-/* Center-align the image within the container */
-img {
+.gallery-image:first-child {
     display: block;
-    margin: 0 auto;
+}
+
+.gallery-controls button {
+    margin: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
 }
