@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,24 @@
 </head>
 
 <body>
+
     <div class="image-gallery">
         <img src="Crazy.png" alt="Image 1" class="gallery-image">
         <img src="Crazy2png.jpg" alt="Image 2" class="gallery-image">
         <img src="Crazy_2.png" alt="Image 3" class="gallery-image">
+        <img src="bleach.jpg" alt="Image 3" class="gallery-image">
     </div>
 
+
+<div class ="rA">
     <div class="gallery-controls">
         <button class="prev-button">Previous</button>
         <button class="next-button">Next</button>
     </div>
+</div>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
