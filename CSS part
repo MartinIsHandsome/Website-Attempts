@@ -6,14 +6,27 @@
     align-items: center;
 }
 
+
+/* styles.css */
 .gallery-image {
     display: none;
-    max-width: 500px; /* Set your desired maximum width in pixels */    
+    width: 500px; /* Set a fixed width for the image */
+    height: 500px; /* Set a fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
 .gallery-image:first-child {
     display: block;
 }
+
+
+.rA {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .gallery-controls button {
     margin: 15px;
@@ -22,4 +35,6 @@
     border: none;
     cursor: pointer;
     justify-content: center;
+    text-align: center;
+    align-items: center;
 }
