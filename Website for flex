@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="fl.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Logo</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <input type="text" class="search-bar" placeholder="Search...">
+        <button class="search-button">Search</button>
+    </div>
+</body>
+</html>
+
+/////////////////////////////////////////// CSS part down there
+
+
+/* styles.css */
+/* Container for the flex items */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.resize {
+    transform: scaleX(2); /* Doubles the width of the text */
+}
+/* Apply different colors to each list item */
+.nav-links li:nth-child(1) {
+    background-color: #ff5733; /* Color for the first item */
+}
+
+.nav-links li:nth-child(2) {
+    background-color: #33ff57; /* Color for the second item */
+}
+
+.nav-links li:nth-child(3) {
+    background-color: #5733ff; /* Color for the third item */
+}
+
+.nav-links li:nth-child(4) {
+    background-color: #ff33f7; /* Color for the fourth item */
+}
+
+
+/* Search Bar */
+.search-bar {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Button */
+.search-button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
