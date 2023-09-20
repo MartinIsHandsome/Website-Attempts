@@ -31,32 +31,34 @@
   background-color: orange;
   color: white;
   border: none;
-  border-radius: 15px;
-  height: 45px;
-  width: 105px;
+  font-size: 35px;
   cursor: pointer;
-  margin: 10px;
-}
+  padding: 15px;
+  margin-left: 25px;
+  margin: 25px;
 
+  transition: padding 0.3s;
+}
 
 .duga:hover{
   background-color: rgb(143, 97, 12);
   color: white;
   border: none;
-  border-radius: 15px;
-  height: 45px;
-  width: 105px;
   cursor: pointer;
-  margin: 10px;
   box-shadow: 0px 5px 0px burlywood;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.duga:active{
+  
 }
 
   .non-button-sub{
     background-color: rgb(78, 0, 245);
     color: aliceblue;
     border: none;
-    height: 35px;
-    width: 105px;
+  
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
