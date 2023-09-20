@@ -1,10 +1,36 @@
 <style>
 
-  button{
+  .button-sub{
     background-color: rgb(245, 0, 0);
+    color: aliceblue;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right:  19px;
+  }
+
+  .non-button-sub{
+    background-color: rgb(147, 0, 245);
+    color: aliceblue;
+    border: none;
+    height: 35px;
+    border-style: double;
+    border-width: 9px;
+    width: 105px;
+    border-radius: 5px;
+    cursor: crosshair;
+    font-weight: bold;
+    font-size: 15px;
   }
 </style>
 
-<button>
+<button class="button-sub">
   SUBSCRIBE
+</button>
+
+
+<button class="non-button-sub">
+  Select
 </button>
