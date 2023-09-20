@@ -1,0 +1,10 @@
+<style>
+
+  button{
+    background-color: rgb(245, 0, 0);
+  }
+</style>
+
+<button>
+  SUBSCRIBE
+</button>
