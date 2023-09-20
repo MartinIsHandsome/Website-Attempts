@@ -1,0 +1,39 @@
+<style>
+
+  p {
+font-family: Arial, Helvetica, sans-serif;
+  }
+
+.video-style{
+width: 500px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+font-weight: bold;
+font-style: italic;
+text-align: center;
+line-height: 35px;
+}
+
+
+.apple-font{
+  font-size: 35px;
+  background-color: red;
+color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;}
+
+.underlineRawr{
+
+
+}
+
+.underlineRawr:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+</style>
+
+<p class = "apple-font">
+  Shop early for the best selection of holiday favourites. <span  href = "https://www.instagram.com/direct/t/17843869970320670/" class = "underlineRawr">Shop now ></span>
+</p>  
