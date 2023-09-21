@@ -4,8 +4,21 @@
 
 
 <head>
+<style>
 
-  <link rel ="stylesheet" href = "buttons.css">
+.container {
+  text-align: center; /* Optional, to center-align the content */
+}
+
+img, p, button {
+  display: inline-block;
+  margin: 10px; /* Optional, to add some spacing between elements */
+}
+
+</style>
+
+
+<link rel ="stylesheet" href = "buttons.css">
 
 <title>
 Website Structure Dicks  
@@ -18,14 +31,11 @@ Website Structure Dicks
 <input class = "search-bar" type = "text" placeholder="Input text here:">
   <h1 class = "dunno">Hiii</h1>
 
-
-  <div class="container">
-
     
-
-    <img  src="Crazy.png" alt="A beautiful landscape">
-
-    <p > Hey,what's up crazy? </p>
+    <div class="container">
+      <img src="Crazy.png" alt="Image">
+      <p>This is a paragraph.</p>
+      <button>Click Me</button>
 
 
 </div>
