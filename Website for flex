@@ -6,14 +6,6 @@
 <head>
 <style>
 
-.container {
-  text-align: center; /* Optional, to center-align the content */
-}
-
-img, p, button {
-  display: inline-block;
-  margin: 10px; /* Optional, to add some spacing between elements */
-}
 
 </style>
 
@@ -21,27 +13,40 @@ img, p, button {
 <link rel ="stylesheet" href = "buttons.css">
 
 <title>
-Website Structure Dicks  
+Website chill testing
 </title>
 
 </head>
 
 
 <body>
-<input class = "search-bar" type = "text" placeholder="Input text here:">
-  <h1 class = "dunno">Hiii</h1>
 
-    
-    <div class="container">
-      <img src="Crazy.png" alt="Image">
-      <p>This is a paragraph.</p>
-      <button>Click Me</button>
+  <input class = "time"  type="text" placeholder="Search for..." name="search">
 
 
-</div>
+  
+  <div class = "placeSize">
 
 
+  <div>
+    <img class = "placeSizeImage" src="Crazy.png">
 
+  </div>
+
+
+  <div>
+  
+    <img class = "iconForPlayer" src="Crazy_2.png">
+
+    <h3 class="rat">NickName</h3>
+  
+
+    <p class = "chad">Random fella</p>
+ 
+    <p  class = "chad">Smart fella</p>
+  </div>
+  
+  </div>
 </body>
 
 
