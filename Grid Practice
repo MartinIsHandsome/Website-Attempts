@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Grid practice</title>
+</head>
+
+
+<body>
+<div style="display: grid;
+grid-template-columns: 100px 100px;">
+
+  <div style = "background-color: rgb(18, 78, 130);"> Div 1  </div>
+  <div style = "background-color: rgb(130, 78, 18);"> Div 1  </div>
+
+</div>
+
+</body>
+
+
+</html>
