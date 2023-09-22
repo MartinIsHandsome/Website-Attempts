@@ -17,13 +17,29 @@ grid-template-columns: 100px 100px;">
 </div>
 
 
-<div style="display: grid;
-grid-template-columns: 100px 100px;">
+<div style="
+margin-top: 25px;
+display: grid;
+grid-template-columns: 100px 100px 200px;">
 
-  <div style = "background-color: rgb(18, 78, 130);"> Div 1  </div>
-  <div style = "background-color: rgb(130, 78, 18);"> Div 1   <p>Rawr</p> <p>Rawr</p></div>
-
+  <div style = "background-color: rgb(18, 78, 130);"> 100px  </div>
+  <div style = "background-color: rgb(130, 78, 18);"> 100px   <p>Rawr</p> <p>Rawr</p></div>
+  <div style = "background-color: rgb(18, 78, 130);"> 200px  </div>
+  
 </div>
+
+
+<div style="
+margin-top: 25px;
+display: grid;
+grid-template-columns: 100px 1fr 2fr;">
+
+  <div style = "background-color: rgb(18, 78, 130);"> 100px  </div>
+  <div style = "background-color: rgb(130, 78, 18);"> 100px   <p>Rawr</p> <p>Rawr</p></div>
+  <div style = "background-color: rgb(18, 78, 130);"> 100px  </div>
+  
+</div>
+
 
 </body>
 
